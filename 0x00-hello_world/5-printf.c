@@ -1,3 +1,4 @@
+gcc main.c
 #include < stdio.h >
 /**
  *  * main - prints out a string
