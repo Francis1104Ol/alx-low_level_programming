@@ -1,4 +1,4 @@
-gcc main.c
+gcc -c $CFILE 
 #include < stdio.h >
 /**
  *  * main - prints out a string
