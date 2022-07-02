@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include < stdio.h>
 
 /**
  *
- ** main - Entry point
+ *main - Entry point
  *
  * *Description: 'the program's description'
  *
