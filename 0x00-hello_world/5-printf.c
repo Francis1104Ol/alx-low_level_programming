@@ -1,5 +1,5 @@
-gcc -c $CFILE 
-#include < stdio.h >
+ #include < stdio.h >
+gcc -c $CFILE                                                                   
 /**
  *  * main - prints out a string
  *  *
