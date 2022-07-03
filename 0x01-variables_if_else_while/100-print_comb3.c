@@ -8,7 +8,7 @@ int main(void)
 {
 	int g, t;
 
-	for (g = '0'; a < 9; g++)
+	for (g = '0'; a < '9'; g++)
 	{
 		for (t = g + 1; t <= '9'; t++)
 		{
@@ -20,7 +20,7 @@ int main(void)
 				if (g == '8' && t == '9')
 					continue;
 
-				putchar(',')
+				putchar(',');
 				putchar(' ');
 			}
 		}
