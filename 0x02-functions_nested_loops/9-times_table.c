@@ -28,6 +28,5 @@ void times_table(void)
 			}
 			else
 				_putchar(' ')
-		}
 	}
 }
