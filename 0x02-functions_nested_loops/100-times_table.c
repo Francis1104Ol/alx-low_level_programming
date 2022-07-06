@@ -22,11 +22,11 @@ void print_times_table(int n)
 }
 
 /**
- *putformat - formatted characters to output
+ *print - formatted characters to output
  * @n: number to format
  *  Return: nothing
  */
-void putformat(int n)
+void _putchar(int n)
 {
 	if (n <= 9)
 	{
@@ -52,3 +52,4 @@ void putformat(int n)
 		_putchar(n / 10 % 10 + '0');
 		_putchar(n % 10 + '0');
 	}
+}
