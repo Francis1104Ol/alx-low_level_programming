@@ -15,7 +15,7 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-				putformat(i * j);
+				p(i * j);
 			_putchar('\n');
 		}
 	}
@@ -26,7 +26,7 @@ void print_times_table(int n)
  * @n: number to format
  *  Return: nothing
  */
-void _putchar(int n)
+void print_times_table(int n)
 {
 	if (n <= 9)
 	{
