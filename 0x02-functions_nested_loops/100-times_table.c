@@ -26,7 +26,7 @@ void print_times_table(int n)
  * @n: number to format
  *  Return: nothing
  */
-void main(int n)
+int main(int n)
 {
 	if (n <= 9)
 	{
