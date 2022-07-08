@@ -9,7 +9,7 @@ void print_line(int n)
 {
 	int co;
 
-	void print_line(int n)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
