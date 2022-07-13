@@ -2,7 +2,7 @@
 
 /**
  * _puts - functions that prints out a string
- * @str: the parameter of a character
+ * @str: string input
  * Return: string
  */
 void _puts(char *str)
@@ -11,7 +11,7 @@ void _puts(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		puts(str[i]);
+		_putchar(str[i]);
 	}
-	puts('\n');
+	_putchar('\n');
 }
