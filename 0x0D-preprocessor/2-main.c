@@ -5,7 +5,7 @@
 #endif
 
 /**
- * main - print file name
+ * main - print name of file.
  *
  * Return: 0
  */
